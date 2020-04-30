@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{73d912f0-8ce0-4359-9ad3-c8987c07f4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{e548b27c-86d3-40c1-9750-07fbd294ee63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\defines.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\PdhHelpers.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\privileges.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\process.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\PdhHelpers.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\privileges.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\process.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ProcessList.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
